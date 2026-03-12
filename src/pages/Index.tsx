@@ -36,7 +36,6 @@ const Index = () => {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-          <span className="text-xl font-black tracking-tight text-foreground">FROSTBIT</span>
           <div className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
             <a href="#product" className="transition-colors hover:text-foreground">Shop</a>
             <a href="#reviews" className="transition-colors hover:text-foreground">Reviews</a>
@@ -87,7 +86,6 @@ const Index = () => {
           {/* Product Details */}
           <div className="flex flex-col gap-6">
             <div>
-              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">Frostbit®</p>
               <h1 className="text-3xl font-extrabold leading-tight text-foreground md:text-4xl">
                 The Original Ice Screw™
               </h1>
@@ -256,13 +254,11 @@ const Index = () => {
       {/* Footer */}
       <footer className="mx-auto max-w-6xl px-6 py-10">
         <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
-          <span className="text-lg font-black tracking-tight text-foreground">FROSTBIT</span>
           <div className="flex gap-6 text-xs text-muted-foreground">
             <a href="#" className="hover:text-foreground">Privacy Policy</a>
             <a href="#" className="hover:text-foreground">Terms of Service</a>
             <a href="#" className="hover:text-foreground">Contact Us</a>
           </div>
-          <p className="text-xs text-muted-foreground">© 2026 Frostbit. All rights reserved.</p>
         </div>
       </footer>
     </div>
